@@ -92,15 +92,15 @@ export default function Hero() {
 
               {/* Brasão PMAL ampliado + tipografia "PMAL" */}
               <div className="mt-5 flex flex-col items-center rounded-xl border border-pmal-gold/30 bg-pmal-navyDark/60 p-6">
-                <div className="relative h-56 w-56 sm:h-64 sm:w-64">
+                <div className="relative h-72 w-72 sm:h-80 sm:w-80 md:h-96 md:w-96">
                   <Image
                     src="/images/brasao-pmal.png"
                     alt="Brasão da Polícia Militar de Alagoas"
                     fill
                     priority
-                    sizes="256px"
+                    sizes="(min-width: 768px) 384px, (min-width: 640px) 320px, 288px"
                     style={{ objectFit: "contain" }}
-                    className="drop-shadow-[0_8px_24px_rgba(227,181,58,0.25)]"
+                    className="drop-shadow-[0_10px_30px_rgba(227,181,58,0.3)]"
                   />
                 </div>
                 <p className="mt-3 font-display text-5xl font-extrabold uppercase tracking-[0.18em] text-pmal-goldLight sm:text-6xl">
@@ -111,9 +111,15 @@ export default function Hero() {
                 </p>
               </div>
 
-              {/* Citação tática */}
+              {/* Local do evento */}
               <div className="mt-5 rounded-xl border border-pmal-gold/30 bg-pmal-gold/5 p-4 text-center">
-                <p className="font-display text-sm uppercase tracking-wide text-pmal-goldLight">
+                <p className="text-[10px] uppercase tracking-[0.28em] text-pmal-goldLight">
+                  Local do evento
+                </p>
+                <p className="mt-1 font-display text-base font-bold uppercase tracking-wide text-white sm:text-lg">
+                  Sede do CPPEM
+                </p>
+                <p className="mt-2 text-[11px] uppercase tracking-wide text-white/70">
                   A última revisão antes da batalha
                 </p>
               </div>

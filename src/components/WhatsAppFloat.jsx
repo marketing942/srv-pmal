@@ -13,7 +13,6 @@ export default function WhatsAppFloat() {
         Fale conosco
       </span>
       <span className="relative inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_8px_24px_rgba(37,211,102,0.45)] transition-transform hover:scale-105 active:scale-95 sm:h-16 sm:w-16">
-        <span className="absolute inset-0 -z-10 animate-ping rounded-full bg-[#25D366]/40" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
