@@ -15,8 +15,8 @@ const faqs = [
     a: "O evento é realizado no formato presencial. Detalhes de local, horário e instruções são enviados após a confirmação da inscrição.",
   },
   {
-    q: "Quem será o professor?",
-    a: "A condução é do Prof. Everton Mota, fundador do CPPEM Concursos, aprovado em 15 concursos públicos e referência em preparação para carreiras policiais.",
+    q: "Quais serão os professores?",
+    a: "Os professores do evento serão adicionados em breve nesta página.",
   },
   {
     q: "Vou receber algum material?",

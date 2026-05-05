@@ -65,15 +65,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Quero participar da revisão →
-            </a>
-            <a
-              href={eventData.linkWhatsapp}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              Falar com a equipe CPPEM
+              Quero participar da revisão · {eventData.preco} →
             </a>
           </div>
 

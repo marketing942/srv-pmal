@@ -33,7 +33,13 @@ export default function Header() {
           rel="noopener noreferrer"
           className="btn-primary !px-4 !py-2.5 text-xs sm:!px-6 sm:!py-3"
         >
-          Garantir minha vaga
+          <span>Garantir minha vaga</span>
+          <span className="ml-1 hidden rounded-md bg-black/20 px-2 py-0.5 text-[11px] font-bold tracking-wide sm:inline-block">
+            {eventData.preco}
+          </span>
+          <span className="ml-1 inline-block rounded-md bg-black/20 px-1.5 py-0.5 text-[10px] font-bold tracking-wide sm:hidden">
+            {eventData.preco}
+          </span>
         </a>
       </div>
     </header>
