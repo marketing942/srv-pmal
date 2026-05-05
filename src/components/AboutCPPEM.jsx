@@ -17,7 +17,7 @@ export default function AboutCPPEM() {
           <div className="lg:col-span-5">
             <span className="eyebrow">Instituição</span>
             <h2 className="section-title mt-4">
-              <span className="text-cppem-green">CPPEM Concursos</span> — referência
+              <span className="text-pmal-goldLight">CPPEM Concursos</span> — referência
               na preparação para concursos policiais.
             </h2>
             <p className="mt-4 text-white/75">
@@ -41,7 +41,7 @@ export default function AboutCPPEM() {
                 <p className="font-display text-lg font-bold uppercase text-white">
                   Seu sonho, nosso objetivo.
                 </p>
-                <p className="text-xs uppercase tracking-[0.18em] text-cppem-green">
+                <p className="text-xs uppercase tracking-[0.18em] text-pmal-goldLight">
                   Caruaru/PE · Nordeste
                 </p>
               </div>
@@ -55,7 +55,7 @@ export default function AboutCPPEM() {
                   key={p.t}
                   className="rounded-xl border border-cppem-line bg-cppem-graphite/70 p-5"
                 >
-                  <h3 className="font-display text-base font-bold uppercase tracking-wide text-cppem-green">
+                  <h3 className="font-display text-base font-bold uppercase tracking-wide text-pmal-goldLight">
                     {p.t}
                   </h3>
                   <p className="mt-1 text-sm text-white/70">{p.d}</p>

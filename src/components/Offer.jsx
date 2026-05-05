@@ -16,14 +16,14 @@ export default function Offer() {
       className="relative overflow-hidden border-b border-cppem-line py-16 sm:py-24"
     >
       <div className="absolute inset-0 tactical-bg opacity-40" />
-      <div className="absolute -top-32 left-1/2 h-80 w-[40rem] -translate-x-1/2 rounded-full bg-cppem-green/15 blur-3xl" />
+      <div className="absolute -top-32 left-1/2 h-80 w-[40rem] -translate-x-1/2 rounded-full bg-pmal-goldLight/15 blur-3xl" />
 
       <div className="container-base relative">
         <div className="mx-auto max-w-3xl text-center">
           <span className="eyebrow">Oferta oficial</span>
           <h2 className="section-title mt-4">
             Garanta sua vaga na{" "}
-            <span className="text-cppem-green">última revisão</span> antes da
+            <span className="text-pmal-goldLight">última revisão</span> antes da
             prova.
           </h2>
           <p className="mt-4 text-white/75">
@@ -46,7 +46,7 @@ export default function Offer() {
                 />
               </div>
               <div>
-                <p className="text-[10px] uppercase tracking-[0.22em] text-cppem-green">
+                <p className="text-[10px] uppercase tracking-[0.22em] text-pmal-goldLight">
                   Evento oficial CPPEM
                 </p>
                 <h3 className="font-display text-xl font-bold uppercase text-white">
@@ -70,7 +70,7 @@ export default function Offer() {
                   key={b}
                   className="flex items-start gap-2 text-sm text-white/85"
                 >
-                  <span className="mt-1 inline-flex h-4 w-4 flex-none items-center justify-center rounded-full bg-cppem-green text-black">
+                  <span className="mt-1 inline-flex h-4 w-4 flex-none items-center justify-center rounded-full bg-pmal-goldLight text-black">
                     <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
                   </span>
                   {b}
@@ -80,8 +80,8 @@ export default function Offer() {
           </div>
 
           {/* Card de preço */}
-          <div className="relative rounded-2xl border border-cppem-green/40 bg-gradient-to-b from-cppem-green/10 to-cppem-graphite p-6 shadow-glow lg:col-span-2">
-            <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-cppem-green px-3 py-1 text-[10px] font-bold uppercase tracking-[0.22em] text-black">
+          <div className="relative rounded-2xl border border-pmal-goldLight/40 bg-gradient-to-b from-pmal-goldLight/10 to-cppem-graphite p-6 shadow-glow lg:col-span-2">
+            <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-pmal-goldLight px-3 py-1 text-[10px] font-bold uppercase tracking-[0.22em] text-black">
               Vagas limitadas · {eventData.vagas}
             </span>
 
@@ -91,7 +91,7 @@ export default function Offer() {
             <p className="mt-2 text-center font-display text-5xl font-bold text-white">
               {eventData.preco}
             </p>
-            <p className="text-center text-xs uppercase tracking-[0.18em] text-cppem-green">
+            <p className="text-center text-xs uppercase tracking-[0.18em] text-pmal-goldLight">
               {eventData.formasPagamento}
             </p>
 

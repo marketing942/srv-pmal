@@ -34,7 +34,7 @@ export default function ForWho() {
           <span className="eyebrow">Para quem é</span>
           <h2 className="section-title mt-4">
             Esta revisão foi feita{" "}
-            <span className="text-cppem-green">para você</span> que quer vestir
+            <span className="text-pmal-goldLight">para você</span> que quer vestir
             a farda da PMAL.
           </h2>
         </div>
@@ -43,10 +43,10 @@ export default function ForWho() {
           {publico.map((p, i) => (
             <div key={p.titulo} className="card">
               <div className="flex items-center justify-between">
-                <span className="font-display text-3xl font-bold text-cppem-green/30">
+                <span className="font-display text-3xl font-bold text-pmal-goldLight/30">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <span className="rounded-md border border-cppem-green/40 bg-cppem-green/10 px-2 py-0.5 text-[10px] uppercase tracking-[0.18em] text-cppem-green">
+                <span className="rounded-md border border-pmal-goldLight/40 bg-pmal-goldLight/10 px-2 py-0.5 text-[10px] uppercase tracking-[0.18em] text-pmal-goldLight">
                   PMAL 2026
                 </span>
               </div>

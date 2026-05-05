@@ -34,7 +34,7 @@ export default function Pain() {
           <span className="eyebrow">Diagnóstico</span>
           <h2 className="section-title mt-4">
             Você estudou, mas sente que ainda{" "}
-            <span className="text-cppem-green">falta organizar tudo</span> na
+            <span className="text-pmal-goldLight">falta organizar tudo</span> na
             cabeça?
           </h2>
           <p className="mt-4 text-white/70">
@@ -47,7 +47,7 @@ export default function Pain() {
           {dores.map((d) => (
             <div key={d.titulo} className="card group">
               <div className="flex items-start gap-3">
-                <span className="mt-1 inline-flex h-8 w-8 flex-none items-center justify-center rounded-md border border-cppem-green/30 bg-cppem-green/10 text-cppem-green">
+                <span className="mt-1 inline-flex h-8 w-8 flex-none items-center justify-center rounded-md border border-pmal-red/40 bg-pmal-red/10 text-pmal-red">
                   <Cross />
                 </span>
                 <div>

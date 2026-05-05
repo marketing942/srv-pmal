@@ -12,7 +12,7 @@ export const eventData = {
   dataEvento: "2026-07-12T08:00:00",
   dataExibicao: "12 de Julho de 2026",
   dataCurta: "12/07",
-  formato: "Online ao vivo",
+  formato: "Presencial",
   duracao: "Aulão intensivo de véspera",
 
   // Oferta

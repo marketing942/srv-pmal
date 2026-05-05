@@ -40,20 +40,20 @@ const itens = [
 export default function WhatYouGet() {
   return (
     <section className="relative overflow-hidden border-b border-cppem-line py-16 sm:py-20">
-      <div className="absolute right-0 top-1/4 h-72 w-72 rounded-full bg-cppem-green/10 blur-3xl" />
+      <div className="absolute right-0 top-1/4 h-72 w-72 rounded-full bg-pmal-goldLight/10 blur-3xl" />
       <div className="container-base relative">
         <div className="max-w-3xl">
           <span className="eyebrow">O que você recebe</span>
           <h2 className="section-title mt-4">
             Tudo que você precisa para entrar na prova{" "}
-            <span className="text-cppem-green">sabendo onde mirar.</span>
+            <span className="text-pmal-goldLight">sabendo onde mirar.</span>
           </h2>
         </div>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {itens.map((i) => (
             <div key={i.titulo} className="card">
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-cppem-green/40 bg-cppem-green/10 text-cppem-green">
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-pmal-goldLight/40 bg-pmal-goldLight/10 text-pmal-goldLight">
                 <Icon name={i.icon} />
               </span>
               <h3 className="mt-4 font-display text-lg font-bold uppercase tracking-wide text-white">

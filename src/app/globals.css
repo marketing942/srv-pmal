@@ -5,23 +5,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap");
 
 :root {
-  --bg: #050807;
-  --green: #16d65d;
+  --bg-navy-deep: #03081a;
+  --bg-navy: #061131;
+  --bg-navy-mid: #0a1a3a;
+  --gold: #e3b53a;
+  --gold-light: #f5cf63;
+  --red: #c8102e;
+  --green-pmal: #1a7a3e;
+  --green-cppem: #16d65d;
 }
 
 html,
 body {
-  background: var(--bg);
-  color: #e8efe9;
+  background: var(--bg-navy-deep);
+  color: #eef2fb;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }
 
+/* Fundo institucional inspirado no brasão da PMAL.
+   Predomínio: azul marinho. Detalhes: dourado, vermelho e verde sutis.
+   Gradiente sóbrio + textura heráldica leve. */
 body {
   background-image:
-    radial-gradient(1200px 600px at 80% -10%, rgba(22, 214, 93, 0.12), transparent 60%),
-    radial-gradient(900px 500px at -10% 30%, rgba(22, 214, 93, 0.08), transparent 60%),
-    linear-gradient(180deg, #050807 0%, #060a08 100%);
+    radial-gradient(1100px 600px at 85% -10%, rgba(227, 181, 58, 0.10), transparent 60%),
+    radial-gradient(900px 500px at -10% 25%, rgba(22, 122, 62, 0.10), transparent 60%),
+    radial-gradient(700px 400px at 50% 110%, rgba(200, 16, 46, 0.06), transparent 60%),
+    linear-gradient(180deg, #03081a 0%, #061131 55%, #050d22 100%);
   background-attachment: fixed;
 }
 
@@ -31,19 +41,19 @@ body {
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-md bg-cppem-green px-6 py-3.5 text-sm sm:text-base font-bold uppercase tracking-wide text-black shadow-glow transition hover:bg-[#1ee869] hover:shadow-[0_0_50px_rgba(22,214,93,0.55)] active:scale-[0.98];
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-cppem-green px-6 py-3.5 text-sm sm:text-base font-bold uppercase tracking-wide text-black shadow-glowGreen transition hover:bg-[#1ee869] hover:shadow-[0_0_50px_rgba(22,214,93,0.55)] active:scale-[0.98];
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-md border border-cppem-green/60 bg-transparent px-6 py-3.5 text-sm sm:text-base font-semibold uppercase tracking-wide text-cppem-green transition hover:bg-cppem-green/10 hover:border-cppem-green;
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-pmal-gold/60 bg-transparent px-6 py-3.5 text-sm sm:text-base font-semibold uppercase tracking-wide text-pmal-goldLight transition hover:bg-pmal-gold/10 hover:border-pmal-gold;
   }
 
   .card {
-    @apply rounded-xl border border-cppem-line bg-cppem-graphite/80 p-6 backdrop-blur-sm transition hover:border-cppem-green/40 hover:shadow-glowSoft;
+    @apply rounded-xl border border-cppem-line bg-cppem-graphite/80 p-6 backdrop-blur-sm transition hover:border-pmal-gold/40 hover:shadow-glowSoft;
   }
 
   .eyebrow {
-    @apply inline-flex items-center gap-2 rounded-full border border-cppem-green/40 bg-cppem-green/5 px-3 py-1 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.18em] text-cppem-green;
+    @apply inline-flex items-center gap-2 rounded-full border border-pmal-gold/40 bg-pmal-gold/5 px-3 py-1 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.18em] text-pmal-goldLight;
   }
 
   .section-title {
@@ -51,11 +61,23 @@ body {
   }
 }
 
+/* Textura heráldica sóbria — linhas finas em dourado quase transparente */
 .tactical-bg {
   background-image:
-    linear-gradient(rgba(22, 214, 93, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(22, 214, 93, 0.05) 1px, transparent 1px);
-  background-size: 40px 40px;
+    linear-gradient(rgba(227, 181, 58, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(227, 181, 58, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Faixa heráldica diagonal opcional */
+.heraldic-stripes {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(227, 181, 58, 0.04) 0px,
+    rgba(227, 181, 58, 0.04) 1px,
+    transparent 1px,
+    transparent 18px
+  );
 }
 
 /* Scrollbar */
@@ -63,12 +85,12 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0d0b;
+  background: #03081a;
 }
 ::-webkit-scrollbar-thumb {
-  background: #16d65d40;
+  background: #e3b53a40;
   border-radius: 8px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #16d65d80;
+  background: #e3b53a80;
 }

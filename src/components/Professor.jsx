@@ -16,8 +16,8 @@ export default function Professor() {
         <div className="grid gap-10 lg:grid-cols-12 lg:items-center">
           <div className="lg:col-span-5">
             <div className="relative mx-auto max-w-sm">
-              <div className="absolute inset-0 rounded-2xl bg-cppem-green/20 blur-2xl" />
-              <div className="relative rounded-2xl border border-cppem-green/30 bg-cppem-graphite/80 p-8 shadow-glow">
+              <div className="absolute inset-0 rounded-2xl bg-pmal-goldLight/20 blur-2xl" />
+              <div className="relative rounded-2xl border border-pmal-goldLight/30 bg-cppem-graphite/80 p-8 shadow-glow">
                 <div className="flex items-center justify-center">
                   <div className="relative h-32 w-32">
                     <Image
@@ -32,7 +32,7 @@ export default function Professor() {
                 <p className="mt-6 text-center font-display text-2xl font-bold uppercase tracking-wide text-white">
                   Prof. Everton Mota
                 </p>
-                <p className="text-center text-xs uppercase tracking-[0.22em] text-cppem-green">
+                <p className="text-center text-xs uppercase tracking-[0.22em] text-pmal-goldLight">
                   Fundador · CPPEM Concursos
                 </p>
                 <div className="mt-5 grid grid-cols-3 gap-2 text-center">
@@ -48,7 +48,7 @@ export default function Professor() {
             <span className="eyebrow">Autoridade</span>
             <h2 className="section-title mt-4">
               Quem vai te orientar já passou pelo{" "}
-              <span className="text-cppem-green">caminho que você quer trilhar.</span>
+              <span className="text-pmal-goldLight">caminho que você quer trilhar.</span>
             </h2>
             <p className="mt-4 text-white/75">
               O Prof. Everton Mota é a referência por trás de centenas de
@@ -63,7 +63,7 @@ export default function Professor() {
                   key={c}
                   className="flex items-start gap-3 rounded-lg border border-cppem-line bg-black/30 px-4 py-3 text-sm text-white/85"
                 >
-                  <span className="mt-1 h-2 w-2 flex-none rounded-full bg-cppem-green" />
+                  <span className="mt-1 h-2 w-2 flex-none rounded-full bg-pmal-goldLight" />
                   {c}
                 </li>
               ))}
@@ -78,7 +78,7 @@ export default function Professor() {
 function Stat({ n, l }) {
   return (
     <div className="rounded-md border border-cppem-line bg-black/40 py-2">
-      <p className="font-display text-xl font-bold text-cppem-green">{n}</p>
+      <p className="font-display text-xl font-bold text-pmal-goldLight">{n}</p>
       <p className="text-[10px] uppercase tracking-[0.18em] text-white/60">
         {l}
       </p>

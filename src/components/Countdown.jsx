@@ -30,12 +30,12 @@ export default function Countdown() {
   }, []);
 
   return (
-    <div className="rounded-2xl border border-cppem-green/30 bg-black/60 p-4 shadow-glowSoft">
+    <div className="rounded-2xl border border-pmal-gold/35 bg-pmal-navyDark/70 p-4 shadow-glowSoft">
       <div className="flex items-center justify-between gap-2">
-        <span className="text-[10px] uppercase tracking-[0.22em] text-cppem-green">
+        <span className="text-[10px] uppercase tracking-[0.22em] text-pmal-goldLight">
           Contagem regressiva
         </span>
-        <span className="text-[10px] uppercase tracking-[0.18em] text-white/50">
+        <span className="text-[10px] uppercase tracking-[0.18em] text-white/55">
           {eventData.dataExibicao}
         </span>
       </div>
@@ -46,7 +46,7 @@ export default function Countdown() {
         <Box value={mounted ? time.s : "–"} label="Seg" />
       </div>
       {time.finished && (
-        <p className="mt-3 text-center text-xs uppercase tracking-wider text-cppem-green">
+        <p className="mt-3 text-center text-xs uppercase tracking-wider text-pmal-goldLight">
           O evento começou — fale com nossa equipe.
         </p>
       )}
@@ -58,7 +58,7 @@ function Box({ value, label }) {
   const formatted =
     typeof value === "number" ? String(value).padStart(2, "0") : value;
   return (
-    <div className="flex flex-col items-center rounded-lg border border-cppem-line bg-cppem-graphite/80 py-2">
+    <div className="flex flex-col items-center rounded-lg border border-pmal-gold/20 bg-pmal-navy/60 py-2">
       <span className="font-display text-2xl font-bold tabular-nums text-white sm:text-3xl">
         {formatted}
       </span>

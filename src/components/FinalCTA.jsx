@@ -4,15 +4,15 @@ import { eventData } from "@/data/event";
 export default function FinalCTA() {
   return (
     <section className="relative overflow-hidden border-b border-cppem-line py-16 sm:py-20">
-      <div className="absolute inset-0 bg-radial-green opacity-70" />
+      <div className="absolute inset-0 bg-radial-gold opacity-70" />
       <div className="container-base relative">
-        <div className="rounded-2xl border border-cppem-green/40 bg-cppem-graphite/80 p-8 shadow-glow sm:p-12">
+        <div className="rounded-2xl border border-pmal-goldLight/40 bg-cppem-graphite/80 p-8 shadow-glow sm:p-12">
           <div className="grid items-center gap-8 lg:grid-cols-12">
             <div className="lg:col-span-8">
               <span className="eyebrow">Reta final</span>
               <h2 className="mt-4 font-display text-3xl font-bold uppercase leading-tight tracking-tight text-white sm:text-4xl md:text-5xl">
                 Entre na prova da PMAL 2026{" "}
-                <span className="text-cppem-green">sabendo onde mirar.</span>
+                <span className="text-pmal-goldLight">sabendo onde mirar.</span>
               </h2>
               <p className="mt-4 max-w-xl text-white/75">
                 A revisão final para quem quer vestir a farda da PMAL. Vagas

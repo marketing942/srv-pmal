@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "A revisão é online ou presencial?",
-    a: "O evento é realizado no formato online ao vivo, para que você possa participar de qualquer lugar. Detalhes de acesso são enviados após a inscrição.",
+    a: "O evento é realizado no formato presencial. Detalhes de local, horário e instruções são enviados após a confirmação da inscrição.",
   },
   {
     q: "Quem será o professor?",
@@ -45,7 +45,7 @@ export default function FAQ() {
         <div className="mx-auto max-w-3xl text-center">
           <span className="eyebrow">FAQ</span>
           <h2 className="section-title mt-4">
-            Perguntas <span className="text-cppem-green">frequentes</span>
+            Perguntas <span className="text-pmal-goldLight">frequentes</span>
           </h2>
           <p className="mt-3 text-white/70">
             Respostas diretas para você decidir com clareza.
@@ -60,7 +60,7 @@ export default function FAQ() {
                 key={f.q}
                 className={`rounded-xl border ${
                   isOpen
-                    ? "border-cppem-green/50 bg-cppem-graphite shadow-glowSoft"
+                    ? "border-pmal-goldLight/50 bg-cppem-graphite shadow-glowSoft"
                     : "border-cppem-line bg-cppem-graphite/60"
                 }`}
               >
@@ -73,7 +73,7 @@ export default function FAQ() {
                     {f.q}
                   </span>
                   <span
-                    className={`flex h-7 w-7 flex-none items-center justify-center rounded-full border border-cppem-green/40 text-cppem-green transition-transform ${
+                    className={`flex h-7 w-7 flex-none items-center justify-center rounded-full border border-pmal-goldLight/40 text-pmal-goldLight transition-transform ${
                       isOpen ? "rotate-45" : ""
                     }`}
                   >

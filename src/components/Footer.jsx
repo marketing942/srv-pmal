@@ -21,7 +21,7 @@ export default function Footer() {
                 <p className="font-display text-lg font-bold uppercase text-white">
                   CPPEM Concursos
                 </p>
-                <p className="text-xs uppercase tracking-[0.18em] text-cppem-green">
+                <p className="text-xs uppercase tracking-[0.18em] text-pmal-goldLight">
                   {eventData.slogan}
                 </p>
               </div>
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-[11px] uppercase tracking-[0.22em] text-cppem-green">
+            <p className="text-[11px] uppercase tracking-[0.22em] text-pmal-goldLight">
               Contato
             </p>
             <ul className="mt-3 space-y-2 text-sm text-white/75">
@@ -43,7 +43,7 @@ export default function Footer() {
                   href={eventData.linkWhatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-cppem-green"
+                  className="hover:text-pmal-goldLight"
                 >
                   WhatsApp oficial CPPEM
                 </a>
@@ -53,7 +53,7 @@ export default function Footer() {
                   href={eventData.linkCheckout}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-cppem-green"
+                  className="hover:text-pmal-goldLight"
                 >
                   Inscrição no evento
                 </a>
@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-[11px] uppercase tracking-[0.22em] text-cppem-green">
+            <p className="text-[11px] uppercase tracking-[0.22em] text-pmal-goldLight">
               Evento
             </p>
             <ul className="mt-3 space-y-2 text-sm text-white/75">

@@ -18,11 +18,11 @@ export default function Header() {
             />
           </div>
           <div className="hidden sm:block leading-tight">
-            <p className="text-[10px] uppercase tracking-[0.22em] text-cppem-green/80">
+            <p className="text-[10px] uppercase tracking-[0.22em] text-pmal-goldLight/80">
               CPPEM Concursos
             </p>
             <p className="font-display text-base font-bold uppercase tracking-wide text-white">
-              Super Revisão PMAL <span className="text-cppem-green">2026</span>
+              Super Revisão PMAL <span className="text-pmal-goldLight">2026</span>
             </p>
           </div>
         </a>
