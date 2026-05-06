@@ -92,7 +92,7 @@ export default function Hero() {
 
               {/* Brasão PMAL ampliado + tipografia "PMAL" */}
               <div className="mt-5 flex flex-col items-center rounded-xl border border-pmal-gold/30 bg-pmal-navyDark/60 p-6">
-                <div className="relative h-120 w-120 sm:h-128 sm:w-128 md:h-144 md:w-144">
+                <div className="relative h-80 w-80 sm:h-88 sm:w-88 md:h-110 md:w-110">
                   <Image
                     src="/images/brasao-pmal.png"
                     alt="Brasão da Polícia Militar de Alagoas"
