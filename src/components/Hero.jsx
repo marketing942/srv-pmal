@@ -79,7 +79,7 @@ export default function Hero() {
         {/* Coluna direita — Brasão PMAL em destaque */}
         <div className="relative lg:col-span-5">
           <div className="relative mx-auto flex h-full w-full max-w-md flex-col items-center justify-center">
-            <div className="relative w-full rounded-2xl border border-pmal-gold/40 bg-pmal-navy/70 p-6 shadow-glow backdrop-blur">
+            <div className="relative w-full rounded-2xl border border-pmal-gold/40 bg-pmal-navy/70 p-4 shadow-glow backdrop-blur sm:p-6">
               {/* Selo superior */}
               <div className="flex flex-col items-center text-center">
                 <span className="text-[10px] uppercase tracking-[0.3em] text-pmal-goldLight">
@@ -91,22 +91,22 @@ export default function Hero() {
               </div>
 
               {/* Brasão PMAL ampliado + tipografia "PMAL" */}
-              <div className="mt-5 flex flex-col items-center rounded-xl border border-pmal-gold/30 bg-pmal-navyDark/60 p-6">
-                <div className="relative h-80 w-80 sm:h-88 sm:w-88 md:h-102 md:w-102">
+              <div className="mt-5 flex flex-col items-center rounded-xl border border-pmal-gold/30 bg-pmal-navyDark/60 p-4 sm:p-6">
+                <div className="relative aspect-square w-full max-w-[240px] sm:max-w-[300px] md:max-w-[360px]">
                   <Image
                     src="/images/brasao-pmal.png"
                     alt="Brasão da Polícia Militar de Alagoas"
                     fill
                     priority
-                    sizes="(min-width: 768px) 384px, (min-width: 640px) 320px, 288px"
+                    sizes="(min-width: 768px) 360px, (min-width: 640px) 300px, 240px"
                     style={{ objectFit: "contain" }}
                     className="drop-shadow-[0_10px_30px_rgba(227,181,58,0.3)]"
                   />
                 </div>
-                <p className="mt-3 font-display text-5xl font-extrabold uppercase tracking-[0.18em] text-pmal-goldLight sm:text-6xl">
+                <p className="mt-3 font-display text-4xl font-extrabold uppercase tracking-[0.18em] text-pmal-goldLight sm:text-5xl md:text-6xl">
                   PMAL
                 </p>
-                <p className="mt-1 text-[10px] uppercase tracking-[0.28em] text-white/65">
+                <p className="mt-1 text-center text-[10px] uppercase tracking-[0.28em] text-white/65">
                   Polícia Militar de Alagoas
                 </p>
               </div>

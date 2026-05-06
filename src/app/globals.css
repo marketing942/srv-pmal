@@ -21,6 +21,8 @@ body {
   color: #eef2fb;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 /* Fundo institucional inspirado no brasão da PMAL.
