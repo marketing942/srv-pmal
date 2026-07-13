@@ -9,9 +9,9 @@ export const eventData = {
 
   // Data e formato
   // ISO local — ajuste a hora se necessário (formato 24h: AAAA-MM-DDTHH:MM:SS)
-  dataEvento: "2026-07-12T08:00:00",
-  dataExibicao: "12 de Julho de 2026",
-  dataCurta: "12/07",
+  dataEvento: "2026-08-23T08:00:00",
+  dataExibicao: "23 de Agosto de 2026",
+  dataCurta: "23/08",
   formato: "Presencial",
   duracao: "Aulão intensivo de véspera",
 
